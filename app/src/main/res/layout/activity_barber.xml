@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Barber_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select a Barber and Service"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_gravity="center"
+                android:paddingBottom="16dp" />
+
+            <!-- Barber 1 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barber Shop : Kavyansh Cutters"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_rahul_cutting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Cutting - ₹200"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:id="@+id/btn_rahul_shaving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shaving - ₹150"
+                android:layout_marginBottom="10dp" />
+            <Button
+                android:id="@+id/btn_rahul_head_massage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="headmassage - ₹150"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Barber 2 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barber Shop : Sameer salon"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_sameer_headmassage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Head Massage - ₹300"
+                android:layout_marginBottom="5dp" />
+            <Button
+                android:id="@+id/btn_rahul_hairstraightening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Straightening - ₹1000"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/btn_sameer_haircolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Color - ₹500"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Barber 3 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barber shop: Deepanshu Spa"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_arjun_weddingpackage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wedding Package - ₹2000"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:id="@+id/btn_arjun_hairstraightening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Straightening - ₹1000"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Barber 4 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barber Shop : Amit Sikada"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_karan_cutting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Cutting - ₹200"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:id="@+id/btn_karan_shaving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shaving - ₹150"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Barber 5 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barber: Aman"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_aman_headmassage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Head Massage - ₹300"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:id="@+id/btn_aman_haircolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Color - ₹500"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Barber 6 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barber: Rohit"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_rohit_weddingpackage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wedding Package - ₹2000"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:id="@+id/btn_rohit_hairstraightening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Straightening - ₹1000"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

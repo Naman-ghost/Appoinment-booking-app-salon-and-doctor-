@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".ProfileActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/main">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/imageViewProfile21"
+            android:layout_width="0dp"
+            android:layout_height="177dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/a_sign_up_form_for_a_doctor_s_appointment" />
+
+        <!-- Name Input -->
+        <EditText
+            android:id="@+id/editTextName21"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your name"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/imageViewProfile21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <!-- Email Input -->
+        <EditText
+            android:id="@+id/editTextEmail21"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/editTextName21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <!-- Password Input -->
+        <EditText
+            android:id="@+id/editTextPassword21"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/editTextEmail21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonSave21"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/card1_style"
+            android:gravity="center"
+            android:text="Save"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/editTextPassword21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <!-- Login Button -->
+        <TextView
+            android:id="@+id/buttonLogin21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            app:layout_constraintTop_toBottomOf="@id/buttonSave21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".PhoneAuthActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Logo or Image at the Top -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="285dp"
+            android:layout_height="167dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/doctor"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Main Title -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="#80E30D"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+        <!-- Button for Doctor/Receptionist Sign Up -->
+        <Button
+            android:id="@+id/buttonDoctorSignUp"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:text="Sign Up as Doctor/Receptionist"
+            android:backgroundTint="#80E30D"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewTitle" />
+
+        <!-- Button for Patient Sign Up -->
+        <Button
+            android:id="@+id/buttonPatientSignUp"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:text="Sign Up as Patient"
+            android:backgroundTint="#80E30D"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonDoctorSignUp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

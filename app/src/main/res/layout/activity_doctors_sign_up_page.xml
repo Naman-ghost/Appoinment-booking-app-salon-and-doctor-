@@ -1,0 +1,175 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/main">
+
+        <!-- Header Image -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="177dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextName_doctor"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/a_sign_up_form_for_a_doctor_s_appointment" />
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/editTextName_doctor"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your name"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintTop_toBottomOf="@id/imageView2" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/editTextEmail_doctor"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintTop_toBottomOf="@id/editTextName_doctor" />
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/editTextPassword_doctor"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintTop_toBottomOf="@id/editTextEmail_doctor" />
+
+        <!-- Specialization -->
+        <Spinner
+            android:id="@+id/spinnerSpecialization_doctor"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edittext"
+            android:padding="8dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextPassword_doctor"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <!-- Fee -->
+        <EditText
+            android:id="@+id/editTextFee_doctor"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your fee"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintTop_toBottomOf="@id/spinnerSpecialization_doctor" />
+
+        <!-- Availability -->
+        <EditText
+            android:id="@+id/editTextAvailability_doctor"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your availability"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintTop_toBottomOf="@id/editTextFee_doctor" />
+
+        <!-- Hospital -->
+        <EditText
+            android:id="@+id/editTextHospital_doctor"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter your hospital"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintTop_toBottomOf="@id/editTextAvailability_doctor" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonSave_doctor"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/card1_style"
+            android:gravity="center"
+            android:text="Save"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextHospital_doctor"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <!-- Login redirect TextView -->
+        <TextView
+            android:id="@+id/textViewLoginRedirect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Already have an account? Login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonSave_doctor" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

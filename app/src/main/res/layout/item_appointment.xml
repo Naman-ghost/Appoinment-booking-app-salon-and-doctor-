@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/patientName99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient: " />
+
+    <TextView
+        android:id="@+id/appointmentSlot99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slot: " />
+
+    <TextView
+        android:id="@+id/status99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: " />
+
+    <Button
+        android:id="@+id/acceptButton99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/rejectButton99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reject"
+        android:visibility="gone" />
+</LinearLayout>

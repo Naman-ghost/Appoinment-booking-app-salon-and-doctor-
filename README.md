@@ -87,10 +87,10 @@ Sync Gradle to download the necessary dependencies.
 ---
 ## 📸 Screenshots
 
-![Login Screen](images/login_screen.png)  
-![Home Screen](images/home_screen.png)  
-![Salon Booking](images/salon_booking.png)  
-![Doctor Booking](images/doctor_booking.png)  
+![Login Screen](images/login.jpg)  
+![Home Screen](images/Frontpage.jpg)  
+![Salon Booking](images/Screenshot 2025-02-02 134246.png)  
+![Doctor Booking](images\appointment.jpg)  
 ![Appointment Management](images/appointment_management.png)  
 
 ---

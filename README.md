@@ -87,11 +87,11 @@ Sync Gradle to download the necessary dependencies.
 ---
 ## 📸 Screenshots
 
-![Login Screen](images/login.jpg)  
-![Home Screen](images/Frontpage.jpg)  
-![Salon Booking](images/Screenshot 2025-02-02 134246.png)  
-![Doctor Booking](images\appointment.jpg)  
-![Appointment Management](images/appointment_management.png)  
+<img src="images/login.jpg" alt="Login Screen" width="300">
+<img src="images/Frontpage.jpg" alt="Home Screen" width="300">
+<img src="images/Screenshot 2025-02-02 134246.png" alt="Salon Booking" width="300">
+<img src="images/appointment.jpg" alt="Doctor Booking" width="300">
+<img src="images/appointment_management.png" alt="Appointment Management" width="300">
 
 ---
 ## 📂 Folder Structure
